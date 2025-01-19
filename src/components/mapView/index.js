@@ -153,6 +153,7 @@ setCoordinates(tempLineCoords)
           coordinates={coordinates}
           setIsPolygonModalOpen={setIsPolygonModalOpen}
           isImportActive={isImportActive}
+          setIsImportActive={setIsImportActive}
         />
       )}
 

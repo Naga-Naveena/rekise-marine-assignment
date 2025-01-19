@@ -9,9 +9,12 @@ export const CoordinateModal = ({
   coordinates,
   setIsPolygonModalOpen,
   isImportActive,
+  setIsImportActive
 }) => {
   const closeModal = () => {
     setIsModalOpen(false);
+    setIsImportActive(false)
+    setIsPolygonModalOpen(false)
   };
   return (
     <div className="modal-overlay">
@@ -57,5 +60,6 @@ CoordinateModal.propTypes = {
   setIsModalOpen: PropTypes.func,
   coordinates: PropTypes.array,
   setIsPolygonModalOpen:PropTypes.func,
-  isImportActive:PropTypes.bool
+  isImportActive:PropTypes.bool,
+  setIsImportActive:PropTypes.func
 };
