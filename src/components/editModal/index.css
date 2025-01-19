@@ -1,0 +1,36 @@
+.options-container {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  padding: 6px;
+  border-radius: 4px;
+  width: 170px;
+
+  gap: 8px;
+}
+
+.button-class1 {
+  background-color: transparent;
+
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  border: none;
+  padding: 4px;
+  cursor: pointer;
+}
+
+
+
+  .button-class1-active{
+    background-color: #f2f2f2;
+  
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    border: none;
+    padding: 4px;
+    cursor: pointer;
+  }

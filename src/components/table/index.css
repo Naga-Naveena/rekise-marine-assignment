@@ -1,0 +1,17 @@
+.table-container{
+    min-width: 600px;
+    
+}
+.click-options{
+
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+
+}
+
+th,td{
+
+    padding: 10px;
+    
+}
